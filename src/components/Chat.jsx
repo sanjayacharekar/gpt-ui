@@ -1,4 +1,3 @@
-// Chat.js
 import React, { useState, useEffect, useRef } from "react";
 import axios from 'axios';
 import './index.css';
@@ -32,9 +31,8 @@ const Chat = () => {
 
     setErrorText("");
     setIsResponseLoading(true);
-
     try {
-      const data = await axios.post('http://localhost:5000/api/chatbot', { message: text });
+      const data = await axios.post(`${'https://gpt-api-ohu3.onrender.com'}/api/chatbot`, { message: text });
 
       if (data.error) {
         setErrorText(data.error.message);

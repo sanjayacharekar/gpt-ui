@@ -1,4 +1,3 @@
-// ChatMain.js
 import React from "react";
 import userIcon from '../assets/img/user.svg';
 import gptIcon from '../assets/img/gptIcon.svg';

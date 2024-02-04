@@ -1,4 +1,3 @@
-// ChatSidebar.js
 import React from "react";
 import { BiPlus, BiComment } from "react-icons/bi";
 
